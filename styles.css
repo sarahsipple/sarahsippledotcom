@@ -1,0 +1,27 @@
+:root {
+  --lightBrown #8C796D;
+  --darkBrown #402116;
+  --medPeach #D9A08B;
+  --lightPeach #F2C1AE;
+  --medPink #D97E7E; 
+}
+
+body {
+    background: var(--medPink);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+header {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
