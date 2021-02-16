@@ -3,41 +3,50 @@ body {
       margin: 0px;
       font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
+
+/* Header and Hero Image */
   
 header {
       text-align: center;
   }
+
+nav {
+  margin: 25px auto;
+  }
+
+nav a {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    color: #569C77;
+    margin: 15px 15px 15px 15px;
+  }
+
+nav a:hover {
+      color: #000;
+  }
+
+.hero-image {
+  height: 90vh;
+  display: flex;
+  background-color: #f5efe0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 h1 {
 
   }
   
 h2 {
-      margin: 0;
-  }
-  
-h3 {
-      margin: 0;
-      margin-bottom: 10px;
-      font-style: italic;
-  }
-
-  nav {
 
   }
 
-  nav a {
-    text-decoration: none;
-    color: #569C77;
-    margin: 15px 15px 15px 15px;
-  }
-
-  nav a:hover {
-      color: #000;
-  }
+/* Portfolio Section */
 
   .portfolio-cards {
-      background-color: #f5efe0;
+      background-color: #f6f6f7;
       padding-top: 10px;
   }
 
