@@ -13,8 +13,9 @@ h2 {
   color: #569C77;
 }
 
-nav {
+.navbar {
   margin: 25px auto;
+  justify-content: center;
   }
 
 nav a {
