@@ -6,18 +6,41 @@
         <meta name="description" content="Sarah Sipple Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../public/styles.css">
+        <link rel="stylesheet" href="./portfolio.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="icon" href="../images/saslogo.png">
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="navbar">
                 <a href="../public/index.html">home</a>
                 <a href="../about/about.html">about</a>
                 <a href="../contact/contact.html">contact</a>
             </nav>
         </header>
-        <a href="sarah sipple resume.pdf" target="_blank">View my Resume Here</a>
+        <h1>Portfolio</h1>
+        <a href="sarah sipple resume.pdf" target="_blank" class="resume">View my Resume Here</a>
+
+        <!-- Portfolio Cards Section -->
+
+        <div class="portfolio-cards">
+            <a href="https://sarahs-face-recognition-brain.herokuapp.com/" target="_blank">
+                <div class="card">
+                    <div class="card-body">
+                    <p class="card-text">I make full stack React Apps like this one:</p>
+                    </div>
+                    <img class="card-picture" src="../images/smart-brain-app.png" alt="Screenshot of Smart Brain App">
+                </div>
+             </a>
+             <a href="http://learn30in30.com/nasapic/index.html" target="_blank">
+                <div class="card">
+                    <div class="card-body">
+                        <p class=card-text>I make single-page API-calling apps like this one:</p>
+                    </div>
+                    <img class="card-picture" src="../images/nasaapod.png" alt="Screenshot of NASA Astronomy Picture of the Day">
+                </div>
+            </a>
+        </div>
     </body>
     <footer>
         <img src="../images/sarahsipple.png " alt="Sarah Sipple" width="250" height="auto" >

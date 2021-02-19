@@ -12,9 +12,9 @@
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" href="../images/saslogo.png">
     </head>
+
     <body>
         <div class="container h-100 text-center">
-            <div class="cover-container w-100">
         <header>
             <nav class="navbar">
                 <a href="../about/about.html">about</a>
@@ -25,51 +25,52 @@
                 <div class="hero-image">
                 <h1>Hi! I'm Sarah Sipple</h1>
                 <h2>Front End Web Developer</h2>
-                <h3>HTML5 • CSS3 • JS • React • Shopify Liquid</h3>
+                <h3>Just want to see the code? <a href="https://github.com/sarahsipple" target="_blank">Check out my GitHub</a></h3>
+                </div>
+            </div>
+        
+        </header>
+
+<!-- Skills Section -->
+
+        <div class="skills-container">
+            <img src="../images/skillsicons/github.png" alt="GitHub" width="auto" height="64">
+            <img src="../images/skillsicons/reactjs.png" alt="ReactJS" width="auto" height="64">
+            <img src="../images/skillsicons/html5.png" alt="HTML5" width="auto" height="64">
+            <img src="../images/skillsicons/css3.png" alt="CSS3" width="auto" height="64">
+            <img src="../images/skillsicons/nodejs.png" alt="Node.JS" width="auto" height="64">
+            <img src="../images/skillsicons/postgresql.png" alt="PostgreSQL" width="auto" height="64">
+            <img src="../images/skillsicons/sass.png" alt="Sass" width="auto" height="64">
+            <img src="../images/skillsicons/bootstrap.png" alt="VSCode" width="auto" height="64">
+
+        </div>
+
+<!-- Portfolio Section -->
+
+        <div class="portfolio">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-cards">
+                <div class="card w-50" id="portfolio-card" onmouseover="hoverOver()" onmouseout="hoverOut()">
+                    <a href="https://sarahs-face-recognition-brain.herokuapp.com/" target="_blank">
+                    <div class="card-body hidden" >
+                        <p class=card-text>Full-Stack React App Using AI API for Face Detection</p>
+                    </div>
+                    <img class="card-picture" src="../images/smartbrainapp200.png" alt="Screenshot of Smart Brain App">
+                    </a>
+                </div>
+                <div class="card w-50" id="portfolio-card" onmouseover="hoverOver()" onmouseout="hoverOut()">
+                    <a href="http://learn30in30.com/nasapic/index.html" target="_blank">
+                        <div class="card-body hidden">
+                            <p class=card-text>NASA API Astronomy Picture of the Day</p>
+                        </div>
+                        <img class="card-picture" src="../images/nasaapod200.png" alt="Screenshot of NASA Astronomy Picture of the Day">
+                    </a>
                 </div>
             </div>
         </div>
-        </header>
 
-<!-- Portfolio Cards Section -->
-
-        <div class="portfolio-cards">
-            <a href="https://sarahs-face-recognition-brain.herokuapp.com/" target="_blank">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">I make full stack React Apps like this one:</p>
-                    </div>
-                    <img class="card-picture" src="../images/smart-brain-app.png" alt="Screenshot of Smart Brain App">
-                </div>
-             </a>
-             <a href="http://learn30in30.com/nasapic/index.html" target="_blank">
-                <div class="card">
-                    <div class="card-body">
-                        <p class=card-text>I make single-page API-calling apps like this one:</p>
-                    </div>
-                    <img class="card-picture" src="../images/nasaapod.png" alt="Screenshot of NASA Astronomy Picture of the Day">
-                </div>
-            </a>
-
-<!-- About Section -->
-
-        <div class="about">
-            <p>
-                You can find me on <a href="https://github.com/sarahsipple">GitHub</a>.
-            </p>
-            <p>
-                I’m  a Front End Web Developer focused on HTML5, CSS3, JS, React and Shopify Liquid.
-            </p> 
-            <p>
-                I use the best technology of the time to create products that have clean code and work well.
-            </p>
-            <p>
-                Contact me to talk about working together, or just to chat: <a href="mailto:hello@sarahsipple.com">hello@sarahsipple.com</a>
-            </p>
-        </div>
-        </div>
         <footer>
-            <img src="../images/sarahsipple.png " alt="Sarah Sipple" width="250" height="auto" >
+            <a href="http://www.sarahsipple.com/"><img src="../images/sarahsipple.png " alt="Sarah Sipple" width="250" height="auto" ></a>
             <div class="footer-nav">
                 <a href="../about/about.html">about</a>
                 <a href="../portfolio/portfolio.html">portfolio</a>
@@ -78,6 +79,8 @@
             <p> &#169; 2020 Sarah Sipple </p>
         </footer>
         </div>
+    </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="../script.js"></script>
     </body>
 </html>
