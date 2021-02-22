@@ -96,22 +96,49 @@ h3 {
   }
 
 .card {
-      margin: 20px auto 0px auto;
-      border-radius: 5px;
-      align-items: center;
-  }
-.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-  }
-
-.hidden {
-    display: none;
+    margin: 20px auto 0px auto;
+    border-radius: 5px;
+    align-items: center;
   }
 
 .card-picture {
   max-width: 100%;
+  border-radius: 5px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
 }
+
+.card-body {
+  transition: .1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover .card-picture {
+  opacity: 0;
+}
+
+.card:hover .card-body {
+  opacity: 1;
+}
+
+.card-text {
+  color: #000;
+  background-color: #BF7069;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 
 /* Footer */
 
