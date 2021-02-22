@@ -6,9 +6,14 @@ h1 {
 .resume {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
-
+    color: #BF7069;
     margin: 25px;
+}
+
+.resume:hover {
+    color: #402523;
 }
 
 .skills-container {
