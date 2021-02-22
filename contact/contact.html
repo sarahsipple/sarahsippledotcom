@@ -5,12 +5,14 @@
         <title>Sarah Sipple</title>
         <meta name="description" content="Sarah Sipple Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="../public/styles.css">
         <link rel="stylesheet" href="contact.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="icon" href="../images/saslogo.png">
     </head>
     <body>
+        <div class="container h-100 text-center">
         <header>
             <nav class="navbar">
                 <a href="../public/index.html">home</a>
@@ -18,9 +20,25 @@
                 <a href="../portfolio/portfolio.html">portfolio</a>
             </nav>
         </header>
+ <!-- Contact Form -->
+        <div class="contact-form">
         <h1>Contact</h1>
-
-    </body>
+        <form>
+            <div class="form-group">
+                <label for="forminputname">Name</label>
+                <input type="text" class="form-control" id="forminputname" placeholder="Name">
+              </div>
+            <div class="form-group">
+              <label for="forminputemail">Email Address</label>
+              <input type="email" class="form-control" id="forminputemail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="forminputtext">Message</label>
+              <textarea class="form-control" id="forminputtext" rows="3" placeholder="Message Here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
     <footer>
         <img src="../images/sarahsipple.png " alt="Sarah Sipple" width="250" height="auto" >
         <div class="footer-nav">
@@ -30,5 +48,6 @@
         </div>
         <p> &#169; 2020 Sarah Sipple </p>
     </footer>
+</div>
 </body>
 </html>

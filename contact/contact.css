@@ -3,3 +3,26 @@ h1 {
     font-size: 2em;
     text-align: center;
 }
+
+.contact-form {
+    padding: 25px;
+    background-color: #f5efe0;
+}
+
+.form-group {
+    margin: 25px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #402523;
+    border-color: #402523;
+    margin: 25px;
+}
+
+.btn:hover {
+    color: #402523;
+    background-color: #fff;
+    border-color: #402523;
+
+}
