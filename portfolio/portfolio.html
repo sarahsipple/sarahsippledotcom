@@ -11,6 +11,7 @@
         <link rel="icon" href="../images/saslogo.png">
     </head>
     <body>
+    <div class="container h-100 text-center">
         <header>
             <nav class="navbar">
                 <a href="../public/index.html">home</a>
@@ -21,30 +22,52 @@
         <h1>Portfolio</h1>
         <a href="sarah sipple resume.pdf" target="_blank" class="resume">View my Resume Here</a>
 
-        <!-- Portfolio Cards Section -->
+<!-- Skill Logos -->
 
-        <div class="portfolio-cards">
-            <a href="https://sarahs-face-recognition-brain.herokuapp.com/" target="_blank">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">I make full stack React Apps like this one:</p>
-                    </div>
-                    <img class="card-picture" src="../images/smart-brain-app.png" alt="Screenshot of Smart Brain App">
-                </div>
-             </a>
-             <a href="http://learn30in30.com/nasapic/index.html" target="_blank">
-                <div class="card">
-                    <div class="card-body">
-                        <p class=card-text>I make single-page API-calling apps like this one:</p>
-                    </div>
-                    <img class="card-picture" src="../images/nasaapod.png" alt="Screenshot of NASA Astronomy Picture of the Day">
-                </div>
-            </a>
+        <div class="skills-container">
+            <img src="../images/skillsicons/github.png" alt="GitHub" width="auto" height="64">
+            <img src="../images/skillsicons/reactjs.png" alt="ReactJS" width="auto" height="64">
+            <img src="../images/skillsicons/html5.png" alt="HTML5" width="auto" height="64">
+            <img src="../images/skillsicons/css3.png" alt="CSS3" width="auto" height="64">
+            <img src="../images/skillsicons/nodejs.png" alt="Node.JS" width="auto" height="64">
+            <img src="../images/skillsicons/postgresql.png" alt="PostgreSQL" width="auto" height="64">
+            <img src="../images/skillsicons/sass.png" alt="Sass" width="auto" height="64">
+            <img src="../images/skillsicons/bootstrap.png" alt="VSCode" width="auto" height="64">
+
         </div>
-    </body>
+
+<!-- Portfolio Cards Section -->
+        <div class="portfolio">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-cards">
+                <div class="card w-50" id="portfolio-card" onmouseover="hoverOver()" onmouseout="hoverOut()">
+                    <a href="https://sarahs-face-recognition-brain.herokuapp.com/" target="_blank">
+                    <div class="card-body hidden" >
+                        <p class=card-text>Full-Stack React App Using AI API for Face Detection</p>
+                    </div>
+                    <img class="card-picture" src="../images/smartbrainapp200.png" alt="Screenshot of Smart Brain App">
+                    </a>
+                </div>
+                <div class="card w-50" id="portfolio-card" onmouseover="hoverOver()" onmouseout="hoverOut()">
+                    <a href="http://learn30in30.com/nasapic/index.html" target="_blank">
+                        <div class="card-body hidden">
+                            <p class=card-text>NASA API Astronomy Picture of the Day</p>
+                        </div>
+                        <img class="card-picture" src="../images/nasaapod200.png" alt="Screenshot of NASA Astronomy Picture of the Day">
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
     <footer>
         <img src="../images/sarahsipple.png " alt="Sarah Sipple" width="250" height="auto" >
+        <div class="footer-nav">
+            <a href="../public/index.html">home</a>
+            <a href="../about/about.html">about</a>
+            <a href="../contact/contact.html">contact</a>
+        </div>
         <p> &#169; 2020 Sarah Sipple </p>
     </footer>
+</div>
 </body>
 </html>
