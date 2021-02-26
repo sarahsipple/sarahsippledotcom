@@ -4,25 +4,16 @@ h1 {
     text-align: center;
 }
 
-.contact-form {
+.contact-container {
     padding: 25px;
     background-color: #f5efe0;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+
 }
-
-.form-group {
-    margin: 25px;
-}
-
-.btn {
-    color: #fff;
-    background-color: #402523;
-    border-color: #402523;
-    margin: 25px;
-}
-
-.btn:hover {
-    color: #402523;
-    background-color: #fff;
-    border-color: #402523;
-
+.contact-icon {
+    height: 100px;
+    width: auto;
+    padding: 25px
 }
